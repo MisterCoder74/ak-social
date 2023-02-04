@@ -1,0 +1,9 @@
+- upload all files and folders keeping the structure and distribution
+- create a folder 'user'
+- go to your hosting account and create a source email address
+- launch the create_tables.php file (then can be erased)
+- put the source email address in file signup.php line 88 ($from = "youremail@address.com";) - do hot use hotmail or gmail or 3rd party emails (*)
+
+
+(*) IMPORTANT: if the activation link does not work, put the DIRECT LINK to activation.pjp
+(with full http and such) in the email message string in signup.php line 90 ($message = )

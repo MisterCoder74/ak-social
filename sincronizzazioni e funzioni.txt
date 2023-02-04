@@ -1,0 +1,15 @@
+sincronizzare:
+
+scaricare:
+
+creare:
+
+
+funzioni:
+Utenti non amici devono vedere i post altrui nel Global Wall ma non commentarli - ok
+Utenti non amici devono poter rispondere ai post iniziati da altri nella bacheca amici - ok
+Pagina con lista utenti, ricerca utenti per country, age e gender - in progress
+Creare nuove gallerie (html -> database) e popolare select list gallerie da database
+Paginazione o caricamento altri status
+Status con immagini
+Sistema mipiace e condividi

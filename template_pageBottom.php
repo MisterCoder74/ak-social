@@ -1,0 +1,2 @@
+<div id="pageBottom">&copy;2023 Vivacity Design - Based on the WebIntersect Social by <a href="https://www.youtube.com/watch?v=UaWN7gObv-c&list=PLlkGN-8wjPHV41Y12LFD8uttbAd1d_ohe" target="_blank">Adam Khoury</a><br>
+All credits go to Adam. Visit his website at <a href="https://www.adamkhoury.com/" target="_blank">ADAMKHOURY.COM</a></div>

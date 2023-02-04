@@ -1,0 +1,194 @@
+* { 
+margin: 0; 
+padding: 0;
+font-family: Tahoma, Geneva, sans-serif; 
+font-size: 16px;
+box-sizing: border-box;
+ }
+body {
+width: 100%;
+height: 100vh;
+box-sizing: border-box;
+}
+/* PAGE TOP */
+#pageTop {
+	background:url(headerSliver.png) repeat-x;
+	height: 90px;
+box-shadow: 0px 2px 5px grey;
+}
+
+#pageTop > #pageTopWrap {
+	width: 100%;
+	margin: 0px auto;
+	height: 90px;
+padding: 4px 10px;
+display: flex;
+justify-content: space-between;
+align-items: center;
+}
+#pageTop > #pageTopWrap > #pageTopLogo {
+	float: left;
+	height: 90px;
+	width: 208px;
+}
+
+#pageTop > #pageTopWrap > #pageTopRest {
+	float: left;
+	height: 90px;
+}
+
+#pageTop > #pageTopWrap > #pageTopRest > #heading {
+padding: 20px;
+color:#fff;
+text-align: center;
+}
+
+#pageTop > #pageTopWrap > #pageTopRest > #heading > h1{
+font-size: 40px;
+}
+
+#pageTop > #pageTopWrap > #menu1 {
+display: flex;
+justify-content: space-between;
+align-items: center;
+}
+
+#pageTop > #pageTopWrap > #menu1 > a {
+	color: #fff;
+	text-decoration: none;
+}
+#pageTop > #pageTopWrap > #menu1 > a:hover {
+	color: #f00;
+}
+
+/* PAGE MIDDLE */
+#pageMiddle{
+	width: 80%;
+        height: 100vh;
+	margin: 15px auto;
+box-shadow: 0px 2px 5px grey;
+}
+/* PAGE BOTTOM */
+#pageBottom{
+position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+	background: #000;
+	padding: 14px;
+	font-size: 16px;
+	color: #fff;
+	text-align: center;
+}
+
+/* USER LIST*/
+
+h2 {
+margin-top: 15px;
+}
+h1 {
+font-size: 32px;
+}
+
+img.profilepics{border:#000 1px solid; width:60px; height:60px; margin:5px;}
+
+#userlistdiv {
+width: 400px;
+padding: 4px;
+font-size: 1rem;
+display: flex;
+justify-content: flex-start;
+}
+
+#userlistdiv > div  {
+margin: 15px;
+width: 90px;
+box-shadow: 0px 4px 6px black;
+padding: 4px 6px;
+
+}
+
+#lastjoineduserlistdiv {
+width: 80%;
+padding: 4px;
+font-size: 1rem;
+display: flex;
+justify-content: space-between;
+}
+
+#lastjoineduserlistdiv > div  {
+margin: 15px;
+width: 90px;
+box-shadow: 0px 4px 6px black;
+padding: 4px 6px;
+
+}
+
+#malesuserlistdiv {
+width: 80%;
+padding: 4px;
+font-size: 1rem;
+display: flex;
+justify-content: space-between;
+}
+
+#malesuserlistdiv > div  {
+margin: 15px;
+width: 90px;
+box-shadow: 0px 4px 6px black;
+padding: 4px 6px;
+
+}
+
+#femalesuserlistdiv {
+width: 80%;
+padding: 4px;
+font-size: 1rem;
+display: flex;
+justify-content: space-between;
+}
+
+#femalesuserlistdiv > div  {
+margin: 15px;
+width: 90px;
+box-shadow: 0px 4px 6px black;
+padding: 4px 6px;
+
+}
+
+button {
+padding: 2px 6px;
+margin: 2px;
+font-size: 1rem;
+background: #fff;
+border: 1px solid black;
+border-radius: 5px;
+color: #000;
+}
+button:disabled {
+padding: 2px 6px;
+margin: 2px;
+font-size: 1rem;
+background: #ccc;
+border: 1px solid #777;
+border-radius: 5px;
+color: #777;
+}
+
+button:hover {
+cursor: pointer;
+}
+
+input[type=submit]{
+width: 60px;
+padding: 2px 6px;
+margin: 8px 4px;
+font-size: .8rem;
+background: #fff;
+border: 1px solid black;
+border-radius: 5px;
+color: #000;
+cursor: pointer;
+
+}
+
